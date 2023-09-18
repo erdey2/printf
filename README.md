@@ -49,15 +49,5 @@ Handle the 0 flag character for non-custom conversion specifiers.
                                                                                     
 12. Every time that I wanted to give up, if I saw an interesting textile, print what
  ever, suddenly I would see a collection                                            
-Handle the - flag character for non-custom conversion specifiers.                   
-                                                                                    
-13. Print is the sharpest and the strongest weapon of our party                     
-Handle the following custom conversion specifier:                                   
-                                                                                    
-14. The flood of print has turned reading into a process of gulping rather than savo
-ring                                                                                
-Handle the following custom conversion specifier:                                   
-                                                                                    
-15. *                                                                               
-All the above options work well together. 
+Handle the - flag character for non-custom conversion specifiers.                  
 
