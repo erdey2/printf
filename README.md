@@ -1,4 +1,4 @@
-# ALX-SWE Programme TEAM WORK [0x11. C - printf]
+# ALX-SWE Programme TEAM WORK [0x11. C - printf] This is done by Erdey and Mohamed
 
 ## Requirements
 ## General
@@ -111,7 +111,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     - All the above options work well together.
 
 ## Authors:
-### Daniel Yohannes: [@leinad85daniel](https://github.com/leinad85daniel)
-### Selahadin Mohammed: [@selahudin](https://github.com/selahudin)
+### Mohamed
+### Erdey
 
 ### Thank You!
