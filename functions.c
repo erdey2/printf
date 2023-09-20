@@ -14,6 +14,7 @@ int print_char(va_list types, char buffer[],
 int flags, int width, int precision, int size)
 {
 	char c = va_arg(types, int);
+
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
 /************************* PRINT A STRING *************************/
@@ -38,7 +39,6 @@ int flags, int width, int precision, int size)
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
-	
 	if (str == NULL)
 	{
 		str = "(null)";
@@ -108,6 +108,7 @@ int flags, int width, int precision, int size)
 	int is_negative = 0;
 	long int n = va_arg(types, long int);
 	unsigned long int num;
+
 	n = convert_size_number(n, size);
 	if (n == 0)
 		buffer[i--] = '0';
@@ -143,6 +144,7 @@ int flags, int width, int precision, int size)
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
+
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
@@ -162,6 +164,7 @@ int flags, int width, int precision, int size)
 		if (sum || i == 31)
 		{
 			char z = '0' + a[i];
+
 			write(1, &z, 1);
 			count++;
 		}
