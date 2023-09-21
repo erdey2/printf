@@ -18,7 +18,6 @@ int flags, int width, int precision, int size)
 	unsigned long num_addrs;
 	char map_to[] = "0123456789abcdef";
 	void *addrs = va_arg(types, void *);
-
 	UNUSED(width);
 	UNUSED(size);
 	if (addrs == NULL)
